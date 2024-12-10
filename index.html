@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adicionar Receita Dinamicamente</title>
+</head>
+<body>
+    <header>
+        <h1>Receitas Famosas e Inovadoras</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Adicionar Nova Receita</h2>
+            <form id="recipeForm">
+                <input type="text" id="recipeName" placeholder="Nome da Receita" required>
+                <textarea id="ingredients" placeholder="Ingredientes" required></textarea>
+                <textarea id="instructions" placeholder="Modo de Preparo" required></textarea>
+                <button type="submit">Adicionar Receita</button>
+            </form>
+            <div id="addedRecipes">
+                <!-- Receitas adicionadas aparecerão aqui -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rhuan Delfino. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
